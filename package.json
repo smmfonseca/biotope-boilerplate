@@ -11,7 +11,8 @@
   "scripts": {
     "test:travis": "mocha test/travis/build.js",
     "serve": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "migrate": "gulp migrate"
   },
   "dependencies": {
     "@types/jquery": "2.0.48",

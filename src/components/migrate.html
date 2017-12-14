@@ -1,0 +1,40 @@
+{{= ftf.include("elements/headline.h1.html") }}
+{{=ftf.include("elements/headline.h1.html")}}
+{{=  ftf.include( "elements/headline.h1.html" )  }}
+
+{{= ftf.include("elements/headline.h1.html", { headline: 'Default layout structure' }) }}
+{{=ftf.include("elements/headline.h1.html",{headline:'Default layout structure'})}}
+{{=  ftf.include( "elements/headline.h1.html" ,  {  headline:   'Default layout structure'  })  }}
+
+{{= ftf.include('components/accordion.html', {
+	openFirst: false,
+	disableAutoClose: false,
+	panel: [
+		{
+			title: "first panel title",
+			content: [
+				ftf.include('components/headline.h2.subline.html', {
+					showSubline: true
+				}),
+
+				ftf.include('scaffolding/content.text.html')
+			]
+		},
+		{
+			title: "second panel title",
+			content: [
+				ftf.include("components/snackableNews.html", {
+					showHeadline: true,
+					showText: true,
+					showImage: true,
+					classes: 'snackableNews--imageLeft snackableNews--green'
+				})
+			]
+		},
+		{
+			content: [
+				ftf.include('scaffolding/content.text.html')
+			]
+		}
+	]
+})}}

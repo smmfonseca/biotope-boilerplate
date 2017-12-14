@@ -1,6 +1,7 @@
 module.exports = {
 	project: 'VI Frontend Framework 5',
 	global: {
+		debug: true,
 		resources: [
 			'/resources'
 		],
