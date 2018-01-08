@@ -11,7 +11,9 @@
   "scripts": {
     "test:travis": "mocha test/travis/build.js",
     "serve": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "backstop:test": "backstop test",
+    "backstop:approve": "backstop approve"
   },
   "dependencies": {
     "@types/jquery": "2.0.48",
@@ -32,7 +34,7 @@
     "vi-css-helper": "https://github.com/virtualidentityag/vi-css-helper.git#1.1.1"
   },
   "devDependencies": {
-    "build-framework": "https://github.com/frontend-framework/build-framework.git#5.1.1",
+    "build-framework": "https://github.com/frontend-framework/build-framework.git#lazy-load-plugins",
     "gulp": "3.9.1",
     "mocha": "3.4.1"
   },
