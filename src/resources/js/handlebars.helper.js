@@ -12,9 +12,7 @@
 }(this, function (Handlebars) {
 	'use strict';
 
-	var helpers = {
-
-	};
+	var helpers = {};
 
 	for (var helper in helpers) {
 		if (helpers.hasOwnProperty(helper)) {
