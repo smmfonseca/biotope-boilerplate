@@ -80,6 +80,12 @@
     webpack "4.8.3"
     webpack-stream "4.0.3"
 
+"@biotope/generator@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@biotope/generator/-/generator-1.0.0.tgz#910d83916c35a3920a965d6a654f66300c129e99"
+  dependencies:
+    plop "^2.0.0"
+
 "@biotope/resource-loader@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@biotope/resource-loader/-/resource-loader-1.3.0.tgz#378377f160a5a1ecf2d7831bd6261e3c2ce1529d"
