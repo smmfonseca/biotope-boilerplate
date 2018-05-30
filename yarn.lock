@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@biotope/build@https://github.com/biotope/biotope-build.git#atl":
-  version "5.3.4"
-  resolved "https://github.com/biotope/biotope-build.git#e1e2c31d57cbeb0ab880f619a64c3de68b6fff65"
+"@biotope/build@^5.3.5":
+  version "5.3.5"
+  resolved "https://registry.yarnpkg.com/@biotope/build/-/build-5.3.5.tgz#9866dac0a72f895d1857e4653132194cb6417cf6"
   dependencies:
     autoprefixer "7.1.6"
-    awesome-typescript-loader "^5.0.0"
+    awesome-typescript-loader "5.0.0"
     babel-core "6.26.3"
     babel-loader "7.1.4"
     babel-preset-env "1.7.0"
@@ -680,7 +680,7 @@ autoprefixer@^6.3.1:
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
 
-awesome-typescript-loader@^5.0.0:
+awesome-typescript-loader@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/awesome-typescript-loader/-/awesome-typescript-loader-5.0.0.tgz#130c304ae52a60933f15d93f7629003b483fa8b1"
   dependencies:
