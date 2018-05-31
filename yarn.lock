@@ -120,13 +120,13 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
 
-"@types/jquery@2.0.48":
-  version "2.0.48"
-  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-2.0.48.tgz#3e90d8cde2d29015e5583017f7830cb3975b2eef"
+"@types/jquery@^3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.2.tgz#8700226bdde24b6f98e3a60126dbaab3b2a3ab41"
 
-"@types/modernizr@3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@types/modernizr/-/modernizr-3.5.1.tgz#a2123216e12138071fb145880f75f6f4b33e8069"
+"@types/modernizr@^3.5.2":
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@types/modernizr/-/modernizr-3.5.2.tgz#4fe495d99910b27bf41be65cc21e07e2ef727f33"
 
 "@webassemblyjs/ast@1.4.3":
   version "1.4.3"
