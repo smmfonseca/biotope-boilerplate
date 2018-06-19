@@ -1,0 +1,47 @@
+.icon {
+    font-size: 20px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 20em 58.6em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.bee:before {
+      background-position: 0em 0em;
+      width: 19.2682em;
+      height: 19.2682em;
+  }
+
+
+
+
+  .icon.rainbow:before {
+      background-position: 0em -19.3em;
+      width: 19.269em;
+      height: 19.269em;
+  }
+
+
+
+
+  .icon.sun:before {
+      background-position: 0em -38.6em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+
