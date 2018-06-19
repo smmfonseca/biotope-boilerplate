@@ -15,8 +15,17 @@ export class SimpleComponent extends HTMLElement {
 		this.html = hyper.bind(this);
 		console.log('test');
 	}
- 
+
 	connectedCallback() {
+		// TODO use decorators
+		// this.storeConnector = new BiotopeReduxStoreConnector({
+		// 	store: biotopeInjectorStore || window['biotope'].store,
+		// 	injectorConfig: biotopeInjectorConfig,
+		// 	componentId: biotopeComponentId || this.componentId,
+		// 	reducerCreator: SimpleComponentReducerCreator,
+		// 	triggerOnStateChange: (state: SimpleComponentState, lastState: SimpleComponentState) => this.onStateChange(state, lastState)
+		// });
+
 		this.storeConnector = new BiotopeReduxStoreConnector({
 			store: window['biotope'].store,
 			componentId: this.componentId,
@@ -25,11 +34,11 @@ export class SimpleComponent extends HTMLElement {
 		});
 		this.componentId = this.storeConnector.getComponentId();
 
-		// TODO add helpers for initial state injection
+		// TODO add helpers for initial state injection to BiotopeReduxStoreConnector
 		// JSON-LD
 		// Attributes
-		// Rehydrate 
- 
+		// Rehydrate
+
 		this.render(createInitialSimpleComponentState());
 	}
 
@@ -46,7 +55,7 @@ export class SimpleComponent extends HTMLElement {
 	render(state: SimpleComponentState) {
 		return this.html`
 			<button onclick=${this.countUp.bind(this)}>Count Up</button>
-			<span>${state.counter}</span>
+			<span class="simpleComponent__counter">${state.counter}</span>
 		`;
 	}
 }

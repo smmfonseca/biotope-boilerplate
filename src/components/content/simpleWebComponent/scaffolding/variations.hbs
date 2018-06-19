@@ -3,9 +3,23 @@
 		<div class="row row--reducedWidth">
 			<div class="col col--large-8 col--large-offset-2">
 
-				<simple-component data-load-web-component="resources/components/content/simpleWebComponent/SimpleComponent.js"></simple-component>
-				<simple-component data-load-web-component="resources/components/content/simpleWebComponent/SimpleComponent.js"></simple-component>
-				<simple-component data-load-web-component="resources/components/content/simpleWebComponent/SimpleComponent.js"></simple-component>
+				<simple-component
+					data-load-web-component="resources/components/content/simpleWebComponent/index.rehydrate.SimpleComponent.js"
+				>
+					<button>Count Up</button>
+					<span class="simpleComponent__counter">42</span>
+
+				</simple-component>
+
+
+				<simple-component
+					data-load-web-component="resources/components/content/simpleWebComponent/index.attributes.SimpleComponent.js"
+					number="42"
+				>
+				</simple-component>
+
+
+				<simple-component data-load-web-component="resources/components/content/simpleWebComponent/index.headless.SimpleComponent.js"></simple-component>
 
 			</div>
 		</div>
