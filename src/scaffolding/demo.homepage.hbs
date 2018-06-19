@@ -1,0 +1,152 @@
+<div class="section section--colorTheme1">
+	<section>
+		<div class="row row--reducedWidth">
+			<div class="col">
+				<div class="component logoContainer">
+					<img class="logoContainer__image" src="resources/img/voith150logo.svg" alt="welcome to the next 150 years" />
+				</div>
+				<!-- DEV-Note: add any amount of rows after logoContainer -->
+				<div class="row">
+					<div class="col">
+						{{bioInclude 'components/headline.h2.subline' }}
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col--medium-4">
+						{{bioInclude 'components/image' zoomEnabled = true}}
+					</div>
+					<div class="col col--medium-8">
+						{{bioInclude 'components/text'
+						  variant= 'introtext'
+						  object='{
+							"content": [
+								{
+								  "partial": "components/elements/text.paragraph",
+								  "content": [
+									{
+										"type": "text",
+										"textCount": 150
+									}
+								  ]
+								}]
+							}'
+						}}
+
+						{{bioInclude 'components/quote' quoteColor = 'quote--cyan'}}
+						{{bioInclude 'components/text'
+						  variant= 'introtext'
+						  object='{
+							"content": [
+								{
+								  "partial": "components/elements/text.paragraph",
+								  "content": [
+									{
+										"type": "text",
+										"textCount": 150
+									}
+								  ]
+								}]
+							}'
+						}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<div class="section">
+	<section>
+		<div class="row row--reducedWidth">
+			<div class="col">
+				{{bioInclude 'components/headline.h2.subline' }}
+				{{bioInclude 'components/teaser' image='Pic3_' cssClass='teaser--offgrid teaser--green' align = 'left'}}
+				{{bioInclude 'components/teaserrow.3perrow' showAll = true}}
+			</div>
+		</div>
+	</section>
+</div>
+
+<div class="section section--colorTheme1">
+	<section>
+		<div class="row row--reducedWidth">
+			<div class="col">
+				<div class="row">
+					<div class="col">
+						{{bioInclude 'components/headline.h2.subline' }}
+						{{bioInclude 'components/text'
+						  variant= 'freetext'
+						  object='{
+							"content": [
+								{
+								  "partial": "components/elements/text.paragraph",
+								  "content": [
+									{
+										"type": "text",
+										"textCount": 350
+									}
+								  ]
+								}]
+							}'
+						}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<div class="section">
+	<section>
+		<div class="row row--reducedWidth">
+			<div class="col">
+				{{bioInclude 'components/headline.h2.subline' showSubline = true}}
+				{{bioInclude 'components/teaserrow.4perrow' showAll = true}}
+			</div>
+		</div>
+	</section>
+</div>
+
+<div class="section section--colorTheme1">
+	<section>
+		<div class="row row--reducedWidth">
+			<div class="col">
+				<div class="row">
+					<div class="col">
+						{{bioInclude 'components/headline.h2.subline' }}
+						{{bioInclude 'components/text'
+						  variant= 'freetext'
+						  object='{
+							"content": [
+								{
+								  "partial": "components/elements/text.paragraph",
+								  "content": [
+									{
+										"type": "text",
+										"textCount": 350
+									}
+								  ]
+								}]
+							}'
+						}}
+						{{bioInclude 'components/socialMediaStream' }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<div class="section">
+	<section>
+		<div class="row row--reducedWidth">
+			<div class="col">
+				<div class="component heroImage heroImage--full">
+					<figure class="heroImage__image">
+						{{bioInclude 'components/elements/image.responsive' image='Pic2_' imageTitle = 'Title for Hero Image'}}
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
