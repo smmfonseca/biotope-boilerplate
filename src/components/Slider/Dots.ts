@@ -23,8 +23,6 @@ export class Dots extends BioComponent<DotsProps, DotsState> {
         const dotElements = dots.map((_, idx) => selected === idx
             ? BioComponent.wire()`<li onclick=${() => this.onSelected(idx)} style="color: red">+</li>`
             : BioComponent.wire()`<li onclick=${() => this.onSelected(idx)}>+</li>`);
-
-            debugger;
         this.html`
             <ul>${dotElements}</ul>
         `;

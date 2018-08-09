@@ -1,4 +1,1 @@
-import './Slide';
-import './Slider';
-import './Dots';
-import './Stepper';
+import './WrappedSlider';

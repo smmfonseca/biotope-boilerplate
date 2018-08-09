@@ -1,3 +1,7 @@
+import './Dots';
+import './Slide';
+import './Stepper';
+
 import BioComponent from '../../resources/ts/core/BioComponent';
 import {Slide} from './Slide';
 
@@ -54,10 +58,8 @@ export class Slider extends BioComponent<SliderProps, SliderState> {
 
         this.slides.forEach((slide, idx) => slide.props = {isSelected: idx === selected});
 
-        debugger;
-
         return this.html`
-            <x-stepper direction="prev" onclick=${this.onPrevSlide}></x-stepper>
+            <x-stepper direction="previous" onclick=${this.onPrevSlide}></x-stepper>
             <div class="slides">
                 <slot></slot>
             </div>
@@ -68,11 +70,11 @@ export class Slider extends BioComponent<SliderProps, SliderState> {
         `;
     }
 
-    onSelectSlide(e) {
+    onSelectSlide(e: any) {
         this.setSelectedSlide(e.detail);
     }
 
-    setSelectedSlide(selected) {
+    setSelectedSlide(selected: number) {
         this.setState({lastSelected: this.state.selected, selected});
         this.raiseSlideChange();
     }

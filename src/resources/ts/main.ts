@@ -1,5 +1,3 @@
-import configureStore from './state/configureStore';
-
 (function ($, window, document) {
 	'use strict';
 
@@ -26,14 +24,7 @@ import configureStore from './state/configureStore';
 	});
 
 	window['biotope'].configuration.set('initCore', function () {
-
-		window['biotope'].store = configureStore({});
-		// Load web component scripts
-		var webComponents: any[] = [];
-		$('[data-load-web-component]').each(function() {
-			webComponents.push($(this).data('load-web-component'));
-		});
-		window['loadScriptsWhenReady'](webComponents);
+		
 	});
 
 })(jQuery, window, document);

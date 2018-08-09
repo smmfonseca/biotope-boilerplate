@@ -11,6 +11,13 @@ interface StepperState {
 
 export class Stepper extends BioComponent<StepperProps, StepperState> {
 
+    static get observedAttributes() {
+        return [
+            ...BioComponent.observedAttributes,
+            'direction'
+        ]
+    }
+
     created() {
         this.render();
     }
@@ -20,6 +27,7 @@ export class Stepper extends BioComponent<StepperProps, StepperState> {
     }
 
     render() {
+        
         const {direction} = this.props;
         
         this.html`
