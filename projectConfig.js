@@ -10,18 +10,7 @@ module.exports = {
 			'enquire.js': 'dist/enquire.js',
 			'jquery-debouncedwidth': 'js/jquery.debouncedwidth.js',
 			'normalize.css': 'normalize.css',
-			'@webcomponents/webcomponentsjs': [
-				'webcomponents-loader.js',
-				'custom-elements-es5-adapter.js',
-				'webcomponents-hi.js',
-				'webcomponents-hi.js.map',
-				'webcomponents-hi-ce.js',
-				'webcomponents-hi-ce.js.map',
-				'webcomponents-hi-sd.js',
-				'webcomponents-hi-sd.js.map',
-				'webcomponents-hi-sd-ce.js',
-				'webcomponents-hi-sd-ce.js.map'
-			]
+
 		}
 	},
 	uglify: {

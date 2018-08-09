@@ -2,13 +2,17 @@
 	"compilerOptions": {
 		"allowJs": true,
 		"jsx": "React",
-		"module": "CommonJS",
+		"module": "es2015",
 		"moduleResolution": "Node",
-		"noImplicitAny": true,
+		"noImplicitAny": false,
 		"sourceMap": true,
 		"suppressImplicitAnyIndexErrors": true,
 		"allowSyntheticDefaultImports": true,
-		"target": "ES5"
+		"target": "ES6",
+		"lib": [
+			"es2017",
+			"dom"
+		  ]
 	},
 	"awesomeTypescriptLoaderOptions": {
 		"useCache": true,
