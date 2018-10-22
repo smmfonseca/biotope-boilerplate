@@ -1,0 +1,16 @@
+<div class="superheroes">
+
+	<h1 class="superhero__title">
+		{{data.components.superheroes.data.test.title}}
+	</h1>
+
+	<ul class="superhero__list">
+		{{#each data.components.superheroes.data.superheroes.superheroes}}
+		<li class="superhero_listItem">
+			{{bioInclude 'components/superheroes/superheroes'}}
+		</li>
+		{{/each}}
+	</ul>
+
+</div>
+

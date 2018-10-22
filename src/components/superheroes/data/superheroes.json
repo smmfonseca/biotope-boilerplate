@@ -1,0 +1,44 @@
+{
+	"superheroes": [
+		{
+			"superhero": "Batman",
+			"publisher": "DC Comics",
+			"alter_ego": "Bruce Wayne",
+			"first_appearance": "Detective Comics #27",
+			"characters": "Bruce Wayne",
+			"img": "https://cdn1-www.superherohype.com/assets/uploads/2013/11/batmane3-1.jpg"
+		},
+		{
+			"superhero": "Superman",
+			"publisher": "DC Comics",
+			"alter_ego": "Kal-El",
+			"first_appearance": "Action Comics #1",
+			"characters": "Kal-El",
+			"img": "https://www.sideshowtoy.com/wp-content/uploads/2018/06/dc-comics-superman-premium-art-print-sideshow-feature-500563.jpg"
+		},
+		{
+			"superhero": "Flash",
+			"publisher": "DC Comics",
+			"alter_ego": "Jay Garrick",
+			"first_appearance": "Flash Comics #1",
+			"characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+			"img": "https://c-5uwzmx78pmca09x24abibqkx2eoiumax78wbx2ekwu.g00.gamespot.com/g00/3_c-5eee.oiumax78wb.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2fabibqk.oiumax78wb.kwux2fcx78twilax2fakitm_acx78mzx2f9356x2f93567515x2f1209027-bpmntiap.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$"
+		},
+		{
+			"superhero": "Green Lantern",
+			"publisher": "DC Comics",
+			"alter_ego": "Alan Scott",
+			"first_appearance": "All-American Comics #16",
+			"characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz",
+			"img": "https://sm.ign.com/ign_pt/news/g/green-lant/green-lantern-corps-still-in-the-works-despite-dceu-shakeup_77zd.jpg"
+		},
+		{
+			"superhero": "Wonder Woman",
+			"publisher": "DC Comics",
+			"alter_ego": "Princess Diana",
+			"first_appearance": "All Star Comics #8",
+			"characters": "Princess Diana",
+			"img": "https://www.dccomics.com/sites/default/files/WW21.cover-gallery_59a9b1fb94ae52.98029583.jpg"
+		}
+	]
+}
