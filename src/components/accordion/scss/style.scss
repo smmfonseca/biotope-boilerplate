@@ -1,0 +1,34 @@
+body {
+  background: tan;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.accordion {
+  width: 1280px;
+  background: grey;
+  padding-left: 0;
+  list-style: none;
+  margin: 0 auto;
+  .accordion__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    .item__header {
+      background: tomato;
+      padding: 1em 2em;
+      width: 100%;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+    .item__content {
+      padding: 1em 2em;
+      box-sizing: border-box;
+      display: none;
+    }
+  }
+  .item--open .item__content {
+    display: flex;
+  }
+}
