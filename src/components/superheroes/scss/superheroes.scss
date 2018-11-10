@@ -1,0 +1,51 @@
+.superheroes {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.superhero {
+	display: flex;
+	flex-direction: row;
+	&__title {
+		color: sandybrown;
+		text-align: center;
+		margin: 50px 0;
+		text-transform: uppercase;
+	}
+}
+
+.superhero-details {
+	align-items: flex-end;
+	width: 100%;
+		h1 {
+		color: tan;
+	}
+}
+
+.superhero-photo {
+	align-self: center;
+}
+
+h1 {
+	
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	padding: 20px;
+	margin: 0;
+}
+
+li:nth-child(odd) {
+	background-color: #efefef;
+}
+
+img {
+	display: inline-block;
+	max-width: 300px;
+	height: auto;
+}
